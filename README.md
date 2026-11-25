@@ -4,6 +4,8 @@
 
 ## Windows 下载
 
+[中文下载与安装指南](https://hkv-ink.github.io/bitcoin-trading-bot-okx/)
+
 [下载 MountAlpha-OKX-Setup.exe](https://github.com/hkv-ink/bitcoin-trading-bot-okx/releases/latest/download/MountAlpha-OKX-Setup.exe)。版本记录和 `SHA256SUMS.txt` 在[最新发行页](https://github.com/hkv-ink/bitcoin-trading-bot-okx/releases/latest)。这里是欧易中文版。币安英文版见 [MountAlpha Binance Edition](https://github.com/hkv-ink/bitcoin-trading-bot-binance)。
 
 ## 比特币和以太坊自动交易

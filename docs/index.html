@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MountAlpha 阿尔法峰 | 比特币自动交易软件（欧易 OKX 版）</title>
+  <meta name="description" content="下载 MountAlpha 阿尔法峰欧易版。Windows 中文自动交易软件，支持比特币 BTC、以太坊 ETH 的 OKX USDT 永续合约，提供模拟账户和独立实盘控制。">
+  <link rel="canonical" href="https://hkv-ink.github.io/bitcoin-trading-bot-okx/">
+  <meta property="og:title" content="MountAlpha 阿尔法峰 · 欧易 OKX 版">
+  <meta property="og:description" content="比特币与以太坊自动交易软件。Windows 中文安装包、安装说明和校验文件。">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://hkv-ink.github.io/bitcoin-trading-bot-okx/">
+  <meta property="og:locale" content="zh_CN">
+  <link rel="icon" href="mark.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="site.css">
+</head>
+<body>
+  <header><div class="wrap">
+    <span class="brand"><img src="mark.svg" alt="" width="28" height="28">MountAlpha 阿尔法峰</span>
+    <a href="https://hkv-ink.github.io/bitcoin-trading-bot-binance/" lang="en">Binance English edition</a>
+  </div></header>
+  <main class="wrap">
+    <p class="edition">欧易 OKX 版 · Windows 64 位 · 简体中文</p>
+    <h1>MountAlpha 阿尔法峰比特币自动交易软件</h1>
+    <p>面向 OKX 欧易 USDT 永续合约的 Windows 自动交易软件，支持比特币（BTC）和以太坊（ETH）。客户端提供模拟账户、持仓与订单记录，以及独立的实盘控制。</p>
+    <div class="links">
+      <a class="download" href="https://github.com/hkv-ink/bitcoin-trading-bot-okx/releases/latest/download/MountAlpha-OKX-Setup.exe"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12m-5-5 5 5 5-5M5 16v4h14v-4"/></svg>下载 Windows 安装包</a>
+      <a href="https://github.com/hkv-ink/bitcoin-trading-bot-okx/releases/latest">发行说明</a>
+      <a href="https://github.com/hkv-ink/bitcoin-trading-bot-okx/releases/latest/download/SHA256SUMS.txt">SHA-256 校验值</a>
+    </div>
+    <section>
+      <h2>比特币和以太坊自动交易</h2>
+      <table>
+        <thead><tr><th scope="col">币种</th><th scope="col">欧易永续合约</th></tr></thead>
+        <tbody>
+          <tr><td>比特币（BTC）</td><td><code>BTC-USDT-SWAP</code></td></tr>
+          <tr><td>以太坊（ETH）</td><td><code>ETH-USDT-SWAP</code></td></tr>
+        </tbody>
+      </table>
+    </section>
+    <section>
+      <h2>安装和首次运行</h2>
+      <ol>
+        <li>使用 64 位 Windows 和 Microsoft Edge WebView2。运行安装包前，用 PowerShell 计算哈希，并与上方的校验值比对：
+          <code class="hash">Get-FileHash -Algorithm SHA256 .&#92;MountAlpha-OKX-Setup.exe</code>
+        </li>
+        <li>安装后打开<strong>「OKX 策略运行器 文件传输版」</strong>。建议先使用模拟账户，模拟不需要交易所 API 密钥。</li>
+        <li>实盘默认暂停，需要绑定 OKX 账户、完成设备授权，并由用户手动启动。</li>
+      </ol>
+    </section>
+    <section>
+      <h2>常见问题</h2>
+      <dl>
+        <dt>这个版本支持欧易现货吗？</dt>
+        <dd>不支持。这个版本用于欧易 USDT 永续合约，不是现货自动交易软件或数字货币钱包。</dd>
+        <dt>下载需要 GitHub 账号吗？</dt>
+        <dd>不用登录即可下载。实盘所需的交易所账户、设备授权与 GitHub 账号无关。</dd>
+        <dt>遇到安装或授权问题怎么办？</dt>
+        <dd>在软件里使用「联系客服」。说明客户端版本和问题现象，不要发送 API 密钥、密码或验证码。</dd>
+      </dl>
+      <p>MountAlpha 为独立软件，不是 OKX 欧易官方产品。杠杆交易可能造成重大损失，模拟结果不代表实盘收益。</p>
+    </section>
+  </main>
+  <footer><div class="wrap">
+    <span>MountAlpha 阿尔法峰 · 欧易版</span>
+    <a href="https://github.com/hkv-ink/bitcoin-trading-bot-okx">GitHub 发行仓库</a>
+  </div></footer>
+</body>
+</html>
