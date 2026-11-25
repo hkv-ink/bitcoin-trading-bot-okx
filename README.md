@@ -1,10 +1,19 @@
 # MountAlpha 阿尔法峰 比特币自动交易软件（欧易版）
 
-**MountAlpha OKX Edition** 是面向 OKX 欧易 USDT 永续合约的 Windows 中文客户端，包含模拟账户、独立实盘控制、持仓与订单记录，以及加密客服和文件传输。
+**MountAlpha OKX Edition** 是面向 OKX 欧易 USDT 永续合约的 Windows 中文自动交易软件，支持比特币（BTC）和以太坊（ETH）。客户端包含模拟账户、独立实盘控制、持仓与订单记录，以及加密客服和文件传输。
 
 ## Windows 下载
 
 [下载 MountAlpha-OKX-Setup.exe](https://github.com/hkv-ink/bitcoin-trading-bot-okx/releases/latest/download/MountAlpha-OKX-Setup.exe)。版本记录和 `SHA256SUMS.txt` 在[最新发行页](https://github.com/hkv-ink/bitcoin-trading-bot-okx/releases/latest)。这里是欧易中文版。币安英文版见 [MountAlpha Binance Edition](https://github.com/hkv-ink/bitcoin-trading-bot-binance)。
+
+## 比特币和以太坊自动交易
+
+| 币种 | 欧易合约 |
+| --- | --- |
+| 比特币（BTC） | `BTC-USDT-SWAP` |
+| 以太坊（ETH） | `ETH-USDT-SWAP` |
+
+这两个币种都可以在客户端勾选，模拟和实盘的币种分别设置。这个版本用于欧易 USDT 永续合约，不支持现货自动交易，也不是以太坊钱包。
 
 ## 安装和首次运行
 
