@@ -4,7 +4,7 @@
 
 ## Windows 下载
 
-在 [GitHub Releases](../../releases/latest) 下载 `MountAlpha-OKX-Setup.exe`，同时下载同一发行版的 `SHA256SUMS.txt`。这里是欧易中文版。币安英文版见 [MountAlpha Binance Edition](https://github.com/hkv-ink/bitcoin-trading-bot-binance)。
+[下载 MountAlpha-OKX-Setup.exe](https://github.com/hkv-ink/bitcoin-trading-bot-okx/releases/latest/download/MountAlpha-OKX-Setup.exe)。版本记录和 `SHA256SUMS.txt` 在[最新发行页](https://github.com/hkv-ink/bitcoin-trading-bot-okx/releases/latest)。这里是欧易中文版。币安英文版见 [MountAlpha Binance Edition](https://github.com/hkv-ink/bitcoin-trading-bot-binance)。
 
 ## 安装和首次运行
 
@@ -26,3 +26,5 @@
 ## 联系支持
 
 使用软件内「联系客服」功能。说明客户端版本和问题现象，并遮挡账号、设备标识、授权码和任何密钥。
+
+开源客服组件的[对应源码、构建说明和许可证](https://github.com/hkv-ink/bitcoin-trading-bot-okx/releases/latest/download/MountAlpha-OKX-Support-Source.zip)作为独立附件提供。随包的 SimpleX 原生库与 [v7.0.3 上游源码](https://github.com/simplex-chat/simplex-chat/tree/v7.0.3)对应。附件不包含私有交易策略。
